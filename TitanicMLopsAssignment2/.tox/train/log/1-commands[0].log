@@ -1,0 +1,22 @@
+name: train
+run_id: commands[0]
+env HOME: /Users/arpittiwari
+env TMPDIR: /var/folders/q0/ly0zq6b53sj63t8g3vk65zv40000gn/T/
+env LANG: en_GB.UTF-8
+env TERM: xterm-256color
+env PATH: /Users/arpittiwari/Desktop/AI_DS_JIO_INSTITUTE2022/Quarter3/MLops/MLOps_1/section-05-production-model-package/.tox/test_package/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin
+env PIP_DISABLE_PIP_VERSION_CHECK: 1
+env PYTHONIOENCODING: utf-8
+env PYTHONPATH: .
+env PYTHONHASHSEED: 0
+env TOX_ENV_NAME: train
+env TOX_WORK_DIR: /Users/arpittiwari/Desktop/AI_DS_JIO_INSTITUTE2022/Quarter3/MLops/MLOps_1/section-05-production-model-package/.tox
+env TOX_ENV_DIR: /Users/arpittiwari/Desktop/AI_DS_JIO_INSTITUTE2022/Quarter3/MLops/MLOps_1/section-05-production-model-package/.tox/test_package
+env VIRTUAL_ENV: /Users/arpittiwari/Desktop/AI_DS_JIO_INSTITUTE2022/Quarter3/MLops/MLOps_1/section-05-production-model-package/.tox/test_package
+env COLUMNS: 188
+env LINES: 16
+metadata pid: 12420
+cwd: /Users/arpittiwari/Desktop/AI_DS_JIO_INSTITUTE2022/Quarter3/MLops/MLOps_1/section-05-production-model-package
+allow: /Users/arpittiwari/Desktop/AI_DS_JIO_INSTITUTE2022/Quarter3/MLops/MLOps_1/section-05-production-model-package/.tox/test_package/bin/*
+cmd: python regression_model/train_pipeline.py
+exit_code: 0
